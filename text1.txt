@@ -1,1 +1,21 @@
-hi
+
+Java is a high-level, object-oriented programming language that is platform-independent due to the Java Virtual Machine (JVM).
+
+JAVAC : Javac is a compiler of Java which is present in the JDK (Java Development Kit), Javac compiler is used to compile the java programs.
+
+JRE : Java Runtime Environment : It is used to run the Java programs. It consists of libraries and components of java.
+
+JDK : Java Development Kit : It is a type of java development tools kit which is used to create the java applications and tools.
+
+JVM : Java Virtual Machine : It is used to run the compiled byte code files and used to convert the byte code file into machine level code i.e. 0 and 1.
+
+The extension of java is .java and when we create any program in java, it is stored with a name of .java file and after compilation, it is converted into a .class file which is a byte code file.
+
+JAVA is an independent language because of its byte code and a .class file.
+
+The two differences between an interpreter and a compiler are :
+
+1) The first is in interpreter, the code is read line by line and then compile it... whereas in compiler, it compiles the whole code at once.
+2) The interpreter finds the error in every one line of the code but whereas on the other hand, the compiler shows all the errors at once!
+
+
