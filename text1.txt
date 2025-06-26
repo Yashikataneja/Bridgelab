@@ -24,4 +24,27 @@ javac compiler is present in JDK KIT.
 jit (Just In time) presents in jvm environment and it helps in optimising the jaava program.
 The Just-In-Time (JIT) compiler is a component of the runtime environment that improves the performance of Java™ applications by compiling bytecodes to native machine code at run time.
 
+Java was first released in 1995, with development beginning in 1991 at Sun Microsystems. 
+
+
+DATA TYPES IN JAVA :
+
+1) Primitive : (any data type which object cannot be made is called primitive data type)
+int ;float ; double ; char
+2) Non-primitive: ( any data type which object can be made is called non-primitive data type)
+array; string .
+
+(*) BOXING AND UNBOXING :
+(*) SIZE OF DATA TYPES IN TERMS OF MEMORY.
+
+
+
+Ques : I have a data type abc, how can i define it as primitive or non primitive??
+How will i check it?
+
+Ques: Which is the smallest data type in terms of memory and which is the largest ?
+
+
+
+
 
