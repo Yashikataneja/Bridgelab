@@ -18,4 +18,10 @@ The two differences between an interpreter and a compiler are :
 1) The first is in interpreter, the code is read line by line and then compile it... whereas in compiler, it compiles the whole code at once.
 2) The interpreter finds the error in every one line of the code but whereas on the other hand, the compiler shows all the errors at once!
 
+jvm is present in jre (java runtime environment)
+javac compiler is present in JDK KIT.
+
+jit (Just In time) presents in jvm environment and it helps in optimising the jaava program.
+The Just-In-Time (JIT) compiler is a component of the runtime environment that improves the performance of Java™ applications by compiling bytecodes to native machine code at run time.
+
 
