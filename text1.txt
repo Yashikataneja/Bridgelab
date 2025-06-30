@@ -73,6 +73,14 @@ public class MyClass {
 }
 
 
+command to check that the git repo is connected to the main folder or not,
+
+ (git remote -v)
+ OUTPUT : origin  https://github.com/Yashikataneja/Bridgelab (fetch)
+          origin  https://github.com/Yashikataneja/Bridgelab (push)
+
+
+
 
 
 
