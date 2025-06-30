@@ -45,6 +45,43 @@ How will i check it?
 Ques: Which is the smallest data type in terms of memory and which is the largest ?
 
 
+/* CLASS NAME ALWAYS STARTS WITH CAPITAL LETTERS */
+
+public class MyClass {
+
+    int b; //this var is inside class, so this is instance variable
+    static int s; //this can be accessed anywhere inside the class.
+
+    //Moreover, when we write static infront of any var, it is named as static var
+
+    void m1(){
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(s);
+    }
+
+
+
+    public static void main(String[] args)
+    {
+        int a; //this variable is inside the main method, therefore, this is local variable
+        System.out.println(s);
+
+    }
+
+
+}
+
+
+command to check that the git repo is connected to the main folder or not,
+
+ (git remote -v)
+ OUTPUT : origin  https://github.com/Yashikataneja/Bridgelab (fetch)
+          origin  https://github.com/Yashikataneja/Bridgelab (push)
+
+
+
+
 
 
 
