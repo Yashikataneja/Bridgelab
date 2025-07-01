@@ -95,6 +95,16 @@ main method is run by JVM.
 
 
 
+//String input=sc.nextLine();
+        the above line of code in which I have written nextLine(), that is why it is giving the string type
+        input.
+//int  input=sc.nextInt();
+    in the same manner, if i want to take the integer as an input, i will use the above code line for it.
+
+
+
+
+
 
 
 
