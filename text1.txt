@@ -84,7 +84,14 @@ TYPES OF VARIABLE ARE :
 
 1) LOCAL  : THEY ARE ACCESSED INSIDE THE METHODS ONLY ; Local variables must be initialized before they can be used
 2) INSTANCE : THEY AREACCESSED INSIDE THE CLASS ONLY ; Instance variables are created when an object is instantiated, and are accessible to all the constructors, methods, or blocks in the class.
-3) STATIC  : Static variables are accessed through the class they belong to, they are declared using the static keyword.
+3) STATIC  : Static variables are accessed through the class they belong to, they are declared using the static keyword, it can be accessed anywhere from static or from non static method.
+
+
+(CLASS NAME ALWAYS STARTS WITH UPPERCASE LETTERS AND METHODS NAME WITH LOWERCASE LETTERS.)
+
+
+
+
 
 
 
