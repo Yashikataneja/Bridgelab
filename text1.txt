@@ -103,6 +103,19 @@ main method is run by JVM.
 
 
 
+=========================================================================================================================
+
+TO RUN YOUR PROGRAM IN COMMAND PROMPT :
+
+FOR COMPILE COMMAND : 
+
+javac (file name.java)
+
+FOR RUN COMMAND :
+java (file name)
+
+
+
 
 
 
