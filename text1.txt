@@ -116,6 +116,11 @@ java (file name)
 
 
 
+How to write your code in NOTEPAD ?
+
+Just make a new folder, and make a new text file and write the code in it and then open it with notepad++ ,
+THEN SAVE IT AND THEN rename it to java source file , then open it with command prompt, and use compilation and run commands.
+
 
 
 
