@@ -121,6 +121,26 @@ How to write your code in NOTEPAD ?
 Just make a new folder, and make a new text file and write the code in it and then open it with notepad++ ,
 THEN SAVE IT AND THEN rename it to java source file , then open it with command prompt, and use compilation and run commands.
 
+ENTRY POINT OF THA JAVA PROGRAM :
+
+main method :
+
+public static void main(String[] args){
+         System.out.println("hey");
+}
+
+public : Access Specifier: It is an Access modifier, which specifies from where and who can access the method. Making the main() method public makes it globally available.
+static : Keyword : It is a keyword that is when associated with a method, making it a class-related method. The main() method is static so that JVM can invoke it without instantiating the class.
+void : Return Type : It is a keyword and is used to specify that a method does not return anything. 
+main : Method name : It is the name of the Java main method. It is the identifier that the JVM looks for as the starting point of the Java program. It's not a keyword.
+string[] args : Array of String Type : It stores Java command-line arguments and is an array of type java.lang.String class. Here, the name of the String array is args but it is not fixed and the user can use any name in place of it. 
+
+Java command-line argument is an argument, i.e., passed at the time of running the Java program. In Java, the command line arguments passed from the console can be received in the Java program, and they can be used as input. The users can pass the arguments during the execution, bypassing the command-line arguments inside the main() method.
+
+What are Command Line Arguments?
+When we run a Java program, we can give extra information right after the program name. This extra information is called command-line arguments. Let's understand this with the help of an example. If we run this,
+
+java Geeks Hello World , hello and world are arguements ..
 
 
 
