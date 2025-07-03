@@ -143,6 +143,25 @@ When we run a Java program, we can give extra information right after the progra
 java Geeks Hello World , hello and world are arguements ..
 
 
+OPERATORS :
+
+Operators are used to perform operations on operands.
+ Operations like addition, subtraction, multiplication, division , modulus , increment , decrement ...etc
+
+1) Arithmetic Operators are : '+' ; '-' ; '*' ; '/' 
+2) Assignment Operators : '='
+left shift and right shift operators :
+<< <<(left shift) ; >> >>(right shift) right shift exclude karke baki wale elements ko right side pe kardo shift.... same in the case of left shift
+They work on bits.
+
+(>>= and <<=) : right and left shift equals.
+>>= and <<= are bitwise assignment operators in Java (and many other languages like C, C++, etc.).
+
+They are compound assignment operators that:
+Perform a bitwise shift (>> or <<)
+And then assign the result back to the variable.
+
+
 
 
 
