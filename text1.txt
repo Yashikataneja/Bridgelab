@@ -121,7 +121,93 @@ How to write your code in NOTEPAD ?
 Just make a new folder, and make a new text file and write the code in it and then open it with notepad++ ,
 THEN SAVE IT AND THEN rename it to java source file , then open it with command prompt, and use compilation and run commands.
 
+ENTRY POINT OF THA JAVA PROGRAM :
 
+main method :
+
+public static void main(String[] args){
+         System.out.println("hey");
+}
+
+public : Access Specifier: It is an Access modifier, which specifies from where and who can access the method. Making the main() method public makes it globally available.
+static : Keyword : It is a keyword that is when associated with a method, making it a class-related method. The main() method is static so that JVM can invoke it without instantiating the class.
+void : Return Type : It is a keyword and is used to specify that a method does not return anything. 
+main : Method name : It is the name of the Java main method. It is the identifier that the JVM looks for as the starting point of the Java program. It's not a keyword.
+string[] args : Array of String Type : It stores Java command-line arguments and is an array of type java.lang.String class. Here, the name of the String array is args but it is not fixed and the user can use any name in place of it. 
+
+Java command-line argument is an argument, i.e., passed at the time of running the Java program. In Java, the command line arguments passed from the console can be received in the Java program, and they can be used as input. The users can pass the arguments during the execution, bypassing the command-line arguments inside the main() method.
+
+What are Command Line Arguments?
+When we run a Java program, we can give extra information right after the program name. This extra information is called command-line arguments. Let's understand this with the help of an example. If we run this,
+
+java Geeks Hello World , hello and world are arguements ..
+
+
+OPERATORS :
+
+Operators are used to perform operations on operands.
+ Operations like addition, subtraction, multiplication, division , modulus , increment , decrement ...etc
+
+1) Arithmetic Operators are : '+' ; '-' ; '*' ; '/' 
+2) Assignment Operators : '='
+left shift and right shift operators :
+<< <<(left shift) ; >> >>(right shift) right shift exclude karke baki wale elements ko right side pe kardo shift.... same in the case of left shift
+They work on bits.
+
+(>>= and <<=) : right and left shift equals.
+>>= and <<= are bitwise assignment operators in Java (and many other languages like C, C++, etc.).
+
+They are compound assignment operators that:
+Perform a bitwise shift (>> or <<)
+And then assign the result back to the variable.
+
+3) Comparison Operators : They are used to compare the two operands like (3==90 or not??)
+
+(==) :  double equals
+! = not
+< = less than 
+> = greater than
+<= less than or equals to
+>= greater than or equals to
+
+4) Logical Operators :
+
+& : and
+|| : or
+! : not : it will just toggle / reverse the bits : 
+^ : Xor : one true and one false: it will check both the operators.....
+
+AND : 
+
+a>=b : Either a can be greater than b or equals to b, then only it will be true.
+
+. Logical Operators (&&, ||, !)
+These work with boolean (true = 1, false = 0):
+
+| A | B | A && B | A \|\| B | !A |
+| - | - | ------ | -------- | -- |
+| 0 | 0 | 0      | 0        | 1  |
+| 0 | 1 | 0      | 1        | 1  |
+| 1 | 0 | 0      | 1        | 0  |
+| 1 | 1 | 1      | 1        | 0  |
+
+. Bitwise Operators :  (&,|, ~)
+
+| A | B | A & B | A \| B | A ^ B |
+| - | - | ----- | ------ | ----- |
+| 0 | 0 | 0     | 0      | 0     |
+| 0 | 1 | 0     | 1      | 1     |
+| 1 | 0 | 0     | 1      | 1     |
+| 1 | 1 | 1     | 1      | 0     |
+
+ . Bitwise not : (~) 
+
+| A | \~A |
+| - | --- |
+| 0 | 1   |
+| 1 | 0   |
+
+============================================================================================
 
 
 
