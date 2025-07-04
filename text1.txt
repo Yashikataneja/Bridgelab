@@ -161,6 +161,53 @@ They are compound assignment operators that:
 Perform a bitwise shift (>> or <<)
 And then assign the result back to the variable.
 
+3) Comparison Operators : They are used to compare the two operands like (3==90 or not??)
+
+(==) :  double equals
+! = not
+< = less than 
+> = greater than
+<= less than or equals to
+>= greater than or equals to
+
+4) Logical Operators :
+
+& : and
+|| : or
+! : not : it will just toggle / reverse the bits : 
+^ : Xor : one true and one false: it will check both the operators.....
+
+AND : 
+
+a>=b : Either a can be greater than b or equals to b, then only it will be true.
+
+. Logical Operators (&&, ||, !)
+These work with boolean (true = 1, false = 0):
+
+| A | B | A && B | A \|\| B | !A |
+| - | - | ------ | -------- | -- |
+| 0 | 0 | 0      | 0        | 1  |
+| 0 | 1 | 0      | 1        | 1  |
+| 1 | 0 | 0      | 1        | 0  |
+| 1 | 1 | 1      | 1        | 0  |
+
+. Bitwise Operators :  (&,|, ~)
+
+| A | B | A & B | A \| B | A ^ B |
+| - | - | ----- | ------ | ----- |
+| 0 | 0 | 0     | 0      | 0     |
+| 0 | 1 | 0     | 1      | 1     |
+| 1 | 0 | 0     | 1      | 1     |
+| 1 | 1 | 1     | 1      | 0     |
+
+ . Bitwise not : (~) 
+
+| A | \~A |
+| - | --- |
+| 0 | 1   |
+| 1 | 0   |
+
+============================================================================================
 
 
 
