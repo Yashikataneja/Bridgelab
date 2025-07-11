@@ -210,6 +210,14 @@ These work with boolean (true = 1, false = 0):
 ============================================================================================
 
 
+TYPES OF LOOPS :
+
+Basically loop is used to perform repetion tasks until a specific condition is met or not...
+
+There are two types of loops :
+1) Entry Controlled Loop : until a condition is not met, loop will not start working.. CONDITION IS MANDATORY FIRSTLY TO EXECUTE THE LOOP OF ENTRY CONTROL..(while loop )
+2) Exit Controlled loop : it is execute once, then a condition can execute after once.. (example is : DO WHILE LOOP) (which is execute once, then the condition is met!)
+
 
 
 
